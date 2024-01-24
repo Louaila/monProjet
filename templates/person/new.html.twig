@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block title %}Nouvelle personne{% endblock %}
+{% block body %}
+    <h1>Nouvelle personne</h1>
+    {{form_start(form)}}
+    {{form_row(form.nom)}}
+    {{form_row(form.prenom)}}
+    {{form_end(form)}}
+{% endblock %}
+
